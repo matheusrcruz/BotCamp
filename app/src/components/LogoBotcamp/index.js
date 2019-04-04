@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from './image/logo.svg';
+import Logo from '../images/logo.svg';
 import './style.css';
 
 const LogoBotcamp = () => {
