@@ -10,6 +10,6 @@ const BtnBotcamp = styled.div`
     background-color: #ee3e25;
     text-transform: uppercase;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 500px;
 `
 export default BtnBotcamp;
