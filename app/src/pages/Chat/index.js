@@ -1,7 +1,13 @@
 import React from 'react';
+import LogoChat from'../../components/LogoChat';
+import ChatWrapper from'../../components/ChatWrapper';
+import BtnSair from '../../components/BtnSair';
 
 const Chat = () => (
-    <h1>Hello New page</h1>
+    <ChatWrapper>
+        <LogoChat />
+        <BtnSair />
+    </ChatWrapper>
 );
 
 export default Chat;
