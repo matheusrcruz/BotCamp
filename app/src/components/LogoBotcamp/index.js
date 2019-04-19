@@ -1,10 +1,10 @@
 import logo from '../img/logo.svg';
 import styled from 'styled-components';
 
-const LogoBotcamp = styled.div`
-background-image: url(${logo});
-width: 250px;
-height: 40px;
-margin: auto;
+const LogoBotcamp = styled.img.attrs({
+    src:logo,
+    alt: "Imagem logo botcamp"
+})`
+    width: 248px;
 `;
 export default LogoBotcamp;
