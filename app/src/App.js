@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 
 import Chat from './pages/Chat';
-import Login from './pages/Login'
 import './components/styles/reset.css';
 
 

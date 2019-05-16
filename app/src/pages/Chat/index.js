@@ -1,13 +1,6 @@
 import React from 'react';
-import LogoChat from'../../components/LogoChat';
-import ChatWrapper from'../../components/ChatWrapper';
-import BtnSair from '../../components/BtnSair';
+import LogoBotcamp from '../../components/LogoBotcamp'
 
-const Chat = () => (
-    <ChatWrapper>
-        <LogoChat />
-        <BtnSair />
-    </ChatWrapper>
-);
+const Chat = () => <LogoBotcamp />;
 
 export default Chat;
