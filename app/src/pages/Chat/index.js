@@ -1,11 +1,14 @@
 import React from 'react';
+    
+import HeaderWrapper from '../../components/HeaderWrapper'
 import LogoBotcamp from '../../components/LogoBotcamp'
 import LogoutBotcamp from '../../components/LogoutBotcamp'
 
+
 const Chat = () =>( 
-    <>
-    <LogoBotcamp />;
-    <LogoutBotcamp />
-    </>
+    <HeaderWrapper>
+        <LogoBotcamp />;
+        <LogoutBotcamp />
+    </HeaderWrapper>
 );
 export default Chat;
