@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 
 const BtnBotcamp = styled.button.attrs({
-    children: props => props.content
+    children: props => props.placeholder
 })`
     width: 280px;
     height: 50px;
