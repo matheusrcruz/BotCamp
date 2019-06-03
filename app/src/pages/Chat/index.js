@@ -12,7 +12,7 @@ const Chat = () =>(
         <LogoBotcamp small />
         <LogoutBotcamp />
     </HeaderWrapper>
-    <InputMessage  placeholder="Digite algo ae" />
+    <InputMessage  />
 </>
 );
 export default Chat;
