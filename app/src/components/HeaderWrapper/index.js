@@ -7,18 +7,16 @@ const HeaderWrapper = styled.header`
     justify-content: space-between;
 
 
-    ::after {
-        content  "";
+    ::after{
+        content: "";
         position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate:(-50%, 50%);
-
-        border: 50px solid;
-        border-top-color: blue;
-        border-right-color: transparent;
-        border-bottom-color: transparent;
-        border-left-color: transparent;
+        bottom: 0;
+        left: 0;
+        transform: translateY(100%);
+        border: 0px  solid transparent;
+        border-top: 14px solid #26265e;
+        border-left-width: 100vw;
+        
     }
 `;
 
